@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "app-bar"
+        "form"
+        "notes";
+    gap: 20px;
+    padding: 20px;
+}
+
+.notes-container {
+    grid-area: notes;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.note-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
