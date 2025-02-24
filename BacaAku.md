@@ -2,7 +2,7 @@
 
 ## Status Proyek
 - **Nama Proyek**: Notes App
-- **Tanggal**: [Tanggal Hari Ini]
+- **Tanggal**: 24 Feb 2025
 - **Status**: Belum di-styling
 
 ## Deskripsi
