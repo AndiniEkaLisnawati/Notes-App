@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-areas:
+    "app-bar"
+    "form"
+    "notes";
+  gap: 30px;
+  padding: 0px;
+  background-color: #fef6e4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+}
+
+.notes-container {
+  grid-area: notes;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 50px;
+}
+
+app-bar h1{
+    font-size: 40px;
+    color: #001858;
+    text-align: center;
+    padding: 60px;
+    margin: 0;
+    background-color: #f3d2c1;
+}

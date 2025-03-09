@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <loading-indicator></loading-indicator>
+    <app-bar></app-bar>
+    <form id="note-form">
+      <input type="text" id="title" placeholder="Judul Catatan" required />
+      <textarea id="body" placeholder="Isi Catatan" required></textarea>
+      <button type="submit">Tambah Catatan</button>
+      <br />
+      <current-date></current-date>
+      <my-welcome></my-welcome>
+    </form>
+    <div class="notes-container" id="notes-container"></div>
+  </body>
+</html>
